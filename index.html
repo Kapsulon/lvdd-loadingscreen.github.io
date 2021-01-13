@@ -8,6 +8,11 @@
       document.write(
         '<link rel="stylesheet" href="css/main.css?' + Math.random() + '">'
       );
+
+      import { HalfCircleSpinner } from 'epic-spinners'
+      
+      <half-circle-spinner :animation-duration="1000" :size="60" color="#ff1d5e"/>
+
     </script>
     <link
       href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed|Ubuntu+Mono&display=swap"
@@ -30,7 +35,10 @@
 
     <main>
       <div class="title">
-        <span>test</span>
+        <div class="half-circle-spinner">
+          <div class="circle circle-1"></div>
+          <div class="circle circle-2"></div>
+        </div>
         <h2></h2>
         <h1 id="title"></h1>
         <div id="history"></div>
