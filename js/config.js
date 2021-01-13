@@ -5,7 +5,7 @@ var Config = {};
  * What should the text in the center of the screen be?
  * if empty it will fill in your Server Name
  */
-Config.title = "Nous vous souhaitons une bonne session de jeu";
+Config.title = "Bienvenue sur La Ville Des Débutants";
 
 /**
  * Enable map text in the top left corner of the screen?
