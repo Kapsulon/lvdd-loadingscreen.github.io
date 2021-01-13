@@ -5,12 +5,12 @@ var Config = {};
  * What should the text in the center of the screen be?
  * if empty it will fill in your Server Name
  */
-Config.title = "";
+Config.title = "Nous vous souhaitons une bonne session de jeu";
 
 /**
  * Enable map text in the top left corner of the screen?
  */
-Config.enableMap = true;
+Config.enableMap = false;
 
 /**
  * Enable steamId text in the top right corner of the screen?
@@ -27,8 +27,8 @@ Config.enableAnnouncements = true;
  * only works if enableAnnouncements = true
  */
 Config.announceMessages = [
-  "Enjoy your stay!",
-  "This loadingscreen is made by Exsite"
+  "Ce serveur est encore en développement !",
+  "N'hésitez pas à rejoindre le serveur discord."
 ];
 
 /**
