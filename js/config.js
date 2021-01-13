@@ -41,7 +41,7 @@ Config.announcementLength = 3000;
  * Image Filename
  * DROP IMAGE IN "images" FOLDER
  */
-Config.backgroundImage = "";
+Config.backgroundImage = "rp_downtown_tits_v2_2.png";
 
 /**
  * Enable debug messages?
