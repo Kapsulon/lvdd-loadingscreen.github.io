@@ -188,18 +188,6 @@ $(document).ready(function() {
         "Gamemode"
       );
 
-      var totalTestFiles = 100;
-      SetFilesTotal(totalTestFiles);
-
-      var needed = totalTestFiles;
-      setInterval(function() {
-        if (needed > 0) {
-          needed = needed - 1;
-          SetFilesNeeded(needed);
-          DownloadingFile("Filename " + needed);
-        }
-      }, 500);
-
       SetStatusChanged("Testing..");
     }
   }, 1000);
