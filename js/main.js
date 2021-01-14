@@ -187,8 +187,6 @@ $(document).ready(function() {
         "SteamID",
         "Gamemode"
       );
-
-      SetStatusChanged("Testing..");
     }
   }, 1000);
 });
