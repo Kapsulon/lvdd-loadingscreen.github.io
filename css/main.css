@@ -87,6 +87,7 @@ h1 {
 
 .hollow-dots-spinner, .hollow-dots-spinner * {
   box-sizing: border-box;
+  margin: auto;
 }
 
 .hollow-dots-spinner {
